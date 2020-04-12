@@ -15,16 +15,17 @@ p {
   font-size: 30px;
 }
 
-#img_sec img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 75%;
-  padding: 5px;
-  border: 5px solid darkred;
+.hero-image {
+  background-image: url("IMG_0938.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
 }
+
 
 #hlink {
   text-align: center;
-  font-size: 30px;
+  font-size: 12px;
 }
