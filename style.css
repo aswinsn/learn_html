@@ -1,15 +1,19 @@
 h1 {
-  color=darkblue;
+  color: darkblue;
   text-align: center;
 }
 
 p {
-
   color: darkorange;
   text-align: center;
+  font-size: 20px;
 }
 
 .Name {
   color: violet;
   font-size: 30px;
+}
+
+#img_sec img {
+  margin: 60px 60px;
 }
